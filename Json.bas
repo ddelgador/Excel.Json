@@ -47,7 +47,7 @@ Private Sub SetJson()
     Set pResponseJson = pScriptControl.Run("getObject")
 End Sub
 Function CreateObjectx86(Optional sProgID)
-
+                'Codigo obtenido de: @omegastripes (https://stackoverflow.com/questions/9725882/getting-scriptcontrol-to-work-with-excel-2010-x64)
     Static oWnd As Object
     Dim bRunning As Boolean
 
